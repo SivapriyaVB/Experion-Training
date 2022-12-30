@@ -1,0 +1,102 @@
+.bg-img{
+    background-image: url(images/tesla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+body{
+    margin:0;
+}
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.white-color{
+    color: black;
+}
+.tesla-logo{
+    width: 20%;
+    color: black;
+    margin-left: 10px;
+}
+.display-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.align-base{
+    align-items: flex-end;
+}
+.center-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.model-names{
+    color: black;
+    font-size: 1.2rem;
+}
+.menu{
+    width: 250px;
+    color: black;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+}
+.tesla-body{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.tesla-model-3-logo{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.model3-logo{
+    font-size: 2.5rem;
+    color: black;
+}
+a{
+    color: black;
+    font-size: 1rem;
+}
+.button{
+    height: 50px;
+    position: relative;
+    top: 350px;
+    left: 380px;
+}
+.custom{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 25px;
+}
+.inventory{
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 25px;
+    position: relative;
+    left: 100px;
+    border: 0;
+}

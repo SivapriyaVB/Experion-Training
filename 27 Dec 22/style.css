@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    background-color: black;
+}
+.head-container{
+    height: 5vh;
+    width: 100%;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.container{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.container-in{
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.card img{
+    width: 22vw;
+    height: 28vh;
+    border-radius: 10px;
+}
+.info{
+    display:flex;
+    width:20vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.info h5{
+    color: white;
+}
+.info img{
+    width:25px;
+    height:25px;
+    border-radius:50px;
+    border:1px solid rgba(0,0,0,0.2);
+}
+.tube{
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+}
