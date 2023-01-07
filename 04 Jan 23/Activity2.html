@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            height: 150px;
+            width: 500px;
+            background-color: blue;
+            border-radius: 20px;
+            box-sizing:
+                border-box;
+            padding: 20px;
+        }
+
+        #inner-container {
+            height: 150px;
+            width:
+                500px;
+            background-color: green;
+            border-radius: 20px;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <button>Button 1</button>
+        <button>Button 2</button>
+        <button>Button 3</button>
+        <button>Button 4</button>
+        <button>Button 5</button>
+    </div>
+    <div id="inner-container">
+    </div>
+    <script>
+        const buttons = document.querySelectorAll('button');
+        buttons.forEach(element => {
+            element.addEventListener('click', (e) => {
+                let test = e.target.innerText;
+                console.log(test);
+                let btn = `<button>${test}</button>`;
+                e.target.style.display = 'none';
+                document.body.children[1].innerHTML += btn;
+            });
+        })
+    </script>
+</body>
+
+</html>
